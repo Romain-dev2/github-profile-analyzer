@@ -59,6 +59,23 @@ Options:
 | `--top N`         | Number of top repositories to show (default 5) |
 | `--include-forks` | Include forked repositories in the statistics  |
 
+### Example output
+
+```text
+GitHub Profile Analyzer - Romain-dev2
+========================================
+Name:          Romain
+Member since:  2025-03-24
+Public repos:  7 (7 analyzed)
+Total stars:   0
+
+Languages (by repository count):
+  Python          ##########           50.0% (3)
+  CSS             ###                  16.7% (1)
+  Java            ###                  16.7% (1)
+  HTML            ###                  16.7% (1)
+```
+
 ## Optional token configuration
 
 Without authentication, GitHub allows 60 requests per hour per IP address.
